@@ -16,8 +16,8 @@ body {
 }
 
 .mobile {
-  display: flex;
   justify-content: space-between;
+  display: flex;
   margin-bottom: 40px;
   font-size: 18px;
   font-weight: 700;
@@ -25,14 +25,14 @@ body {
 
 .temperature-converter {
   background: #fff;
-  border-radius: 5px;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  border-radius: 5px;
   justify-content: center;
+  flex-direction: column;
   padding: 20px 25px 45px;
-  min-width: 320px;
+  min-width: 322px;
   width: 100%;
+  display: flex;
   height: auto;
   box-shadow: -5px -5px 250px 0px rgba(255, 255, 255, 0.02) inset;
   backdrop-filter: blur(21px);
